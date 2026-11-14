@@ -1,5 +1,11 @@
 public class Assignment01Q01 {
     public static void main(String[] args) {
-        // TODO: Implement Q01
+        for (String s : args) {
+            char c = s.charAt(0);
+            if (c % 5 == 0){
+                System.out.println(c);
+            } else {
+            }          
+        }
     }
 }
