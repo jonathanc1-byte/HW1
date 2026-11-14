@@ -5,7 +5,7 @@ public class Assignment01Q03 {
 
         int a = 1;
         int b = 1;
-        
+        int next;
         int numOdd = 0;
         for (int i = 0; i < x; i++) {
             System.out.print(a);
@@ -14,7 +14,7 @@ public class Assignment01Q03 {
             if (a % 2 == 1){
                 numOdd++;
             }
-            int next = a + b;
+            next = a + b;
             a = b;
             b = next;   
             
