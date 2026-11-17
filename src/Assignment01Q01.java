@@ -4,8 +4,8 @@ public class Assignment01Q01 {
             char c = s.charAt(0);
             if (c % 5 == 0){
                 System.out.println(c);
-            } else {
-            }          
+            } else{
+            }         
         }
     }
 }
